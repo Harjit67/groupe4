@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script {
                     // Checkout the latest code from the repository
-                    git url: 'TON_LIEN_DE_REPO_GIT', branch: 'main'
+                    git url: 'https://github.com/Harjit67/groupe4.git/', branch: 'main'
                 }
             }
         }
